@@ -1,0 +1,15 @@
+<%- include("header") -%>
+<h1>Compose</h1>
+
+<div class="input-group mb-3">
+  <form action="/compose" method="post">
+    <textarea style="margin: 5px 0px; padding: 5px;width: 600px; height:35px;" placeholder="Title" class="form-control" name="title"></textarea>
+    <br>
+    <textarea style="padding: 5px;width: 600px; height:300px;" placeholder="Post" class="form-control" name="post"></textarea>
+  <br>
+    <button style="margin-top: 15px;" class="btn btn-outline-secondary" type="submit" id="button-addon2">Post</button>
+</form>
+  </div>
+
+
+<%- include("footer") -%>
